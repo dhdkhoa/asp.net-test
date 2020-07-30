@@ -1,0 +1,23 @@
+﻿<!doctype html>
+
+<html>
+<head>
+    <meta name="viewpost" content="width=device-width"/>
+    <title>Asp.net Layout Example</title>
+    @RenderSection("header",required:false)
+</head>
+<body>
+<div id="header">
+    <h1>Layout Example in HTML</h1>
+</div>
+
+<div id="content">
+    @RenderBody()
+</div>
+
+<div id="footer">
+    This is footer!
+    @RenderSection("footer", required:false)
+</div>
+</body>
+</html>
