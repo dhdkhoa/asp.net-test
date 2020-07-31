@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using PassingData.Models;
 
 namespace PassingData.Controllers
 {
@@ -10,7 +11,11 @@ namespace PassingData.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            //ViewBag.Customer = new Customer();
+            //ViewData.Model = new Customer();
+            var customer = new Customer();
+
+            return View(customer);
         }
     }
 }

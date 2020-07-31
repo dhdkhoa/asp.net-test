@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCLayout", "MVCLayout\MVCLayout.csproj", "{6220DC7D-F43D-47DF-89E5-ADFCE6AFCA11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassingData", "PassingData\PassingData.csproj", "{50795871-981E-4844-9035-ADAD2CC4A854}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PassingData", "PassingData\PassingData.csproj", "{50795871-981E-4844-9035-ADAD2CC4A854}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NETCoreForm", "ASP.NETCoreForm\ASP.NETCoreForm.csproj", "{7638FCFD-22DE-4E00-972D-6D21390AA45E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{50795871-981E-4844-9035-ADAD2CC4A854}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50795871-981E-4844-9035-ADAD2CC4A854}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50795871-981E-4844-9035-ADAD2CC4A854}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7638FCFD-22DE-4E00-972D-6D21390AA45E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7638FCFD-22DE-4E00-972D-6D21390AA45E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7638FCFD-22DE-4E00-972D-6D21390AA45E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7638FCFD-22DE-4E00-972D-6D21390AA45E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

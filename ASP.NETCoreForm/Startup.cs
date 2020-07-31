@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace PassingData
+namespace ASP.NETCoreForm
 {
     public class Startup
     {
@@ -28,7 +28,7 @@ namespace PassingData
 
             app.UseMvc(routes =>
             {
-                routes.MapRoute("default", "{controller=Customer}/{action=Index}/{id:int?}");
+                routes.MapRoute("default", "{controller=Home}/{action=Index}/{id:int?}");
             });
         }
     }
